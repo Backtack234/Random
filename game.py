@@ -10,5 +10,5 @@ def guess(x):
             print("Too low, Try again.")
     
     print("You got it!!")
-guess(50)
+guess(x = random.randint(1, 1000))
 
