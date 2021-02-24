@@ -21,7 +21,9 @@ def guess(x):
         elif guesses == 4:
             print('You have 1 guess left!')
         else:
+            print("You have no guesses left")
             break
+
     print("You got it!! It only took you " + str(guesses) + " guesses!")
     
 
