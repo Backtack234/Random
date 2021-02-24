@@ -12,6 +12,16 @@ def guess(x):
             print("Too low, Try again.")
             guesses = guesses + 1
 
+        if guesses == 1:
+            print('You have 4 guesses left!')
+        elif guesses == 2:
+            print('You have 3 guesses left!')
+        elif guesses == 3:
+            print('You have 2 guesses left!')
+        elif guesses == 4:
+            print('You have 1 guess left!')
+        else:
+            break
     print("You got it!! It only took you " + str(guesses) + " guesses!")
     
 
