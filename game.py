@@ -24,7 +24,8 @@ def guess(x):
             print("You have no guesses left")
             break
 
-    print("You got it!! It only took you " + str(guesses) + " guesses!")
+    if guess == random_number:
+        print("You got it!! It only took you " + str(guesses) + " guesses!")
     
 
 guess(x = random.randint(1,1000))
