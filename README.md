@@ -1,2 +1,0 @@
-# Random
-Guess the Number
